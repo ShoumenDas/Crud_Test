@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Backend.DBContext;
+using Backend.Models;
+using Backend.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -37,6 +39,7 @@ namespace Backend
                 }
             });
             services.AddDbContext<Crud_Context>(options => options.UseSqlServer(Configuration["Connectionstrings:getDBConnection"]));
+            services.AddScoped<ICrudRepository<CrudModels>, CrudRepository>();
             services.AddCors();
         }
 

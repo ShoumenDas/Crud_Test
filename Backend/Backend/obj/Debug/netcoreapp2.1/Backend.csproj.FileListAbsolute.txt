@@ -11,3 +11,4 @@ F:\ASP net core Projects\CRUD_Test\Backend\Backend\obj\Debug\netcoreapp2.1\Backe
 F:\ASP net core Projects\CRUD_Test\Backend\Backend\obj\Debug\netcoreapp2.1\Backend.RazorTargetAssemblyInfo.cache
 F:\ASP net core Projects\CRUD_Test\Backend\Backend\obj\Debug\netcoreapp2.1\Backend.dll
 F:\ASP net core Projects\CRUD_Test\Backend\Backend\obj\Debug\netcoreapp2.1\Backend.pdb
+F:\ASP net core Projects\CRUD_Test\Backend\Backend\obj\Debug\netcoreapp2.1\Backend.csprojAssemblyReference.cache
