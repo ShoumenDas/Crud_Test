@@ -36,7 +36,7 @@ namespace Backend
                     (Resolver as DefaultContractResolver).NamingStrategy = null;
                 }
             });
-            services.AddDbContext<Crud_Context>(options => options.UseSqlServer(Configuration["Connectionstrings: getDBConnection"]));
+            services.AddDbContext<Crud_Context>(options => options.UseSqlServer(Configuration["Connectionstrings:getDBConnection"]));
             services.AddCors();
         }
 
